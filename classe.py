@@ -8,5 +8,8 @@ class Person:
         self.name = name
         self.age = age
 
-p1 = Person('Jose', 45)
-print(p1.name, 'Tem anos: ', p1.age)
+name = input('Entre com nome: ')
+age = input('Entre com valor: ')
+p1 = Person(name, age)
+print(p1.name)
+print(p1.age)
